@@ -9,9 +9,23 @@ footer, section {
 p {
     margin: 20px;
     font-size: 20px;
+    text-align: justify;
+}
+
+body {
+    background-color: lightgrey;
+    cursor: e-resize;
+}
+
+.coin {
+    border-radius: 50px;
 }
 
 
+
+.question{
+    cursor: help;
+}
 /* head  */
 
 #divhead {
@@ -21,7 +35,16 @@ p {
     height: 120px;
     background-color: whitesmoke;
     border: 2px solid #000000;
+    display: flex;
 }
+
+h1{
+    font-size: 50px;
+    color :green;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
 nav {
     margin-left: 30px;
     margin-right: 30px;
@@ -53,7 +76,15 @@ li{
     margin: 10px;
 }
 
+
 /* corps du site  */
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #premier{
     display: flex;
 }
@@ -64,10 +95,6 @@ li{
 }
 
 /* Footer */
-
-
-
-
 
 footer {
     display: flex;
@@ -81,31 +108,9 @@ footer {
     padding-right: 5px;
 }
 
+
 .lien{
     text-decoration: none;
 }
 
-#divhead {
-    display: flex;
-}
 
-h1{
-    font-size: 50px;
-    color :green;
-    padding-left: 50px;
-    padding-right: 5px;
-}
-
-body {
-    background-color: lightgrey;
-    cursor: e-resize;
-}
-
-.question{
-    cursor: help;
-}
-
-
-.coin {
-    border-radius: 50px;
-}
