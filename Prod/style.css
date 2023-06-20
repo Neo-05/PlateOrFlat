@@ -1,0 +1,111 @@
+/* Générique  */
+footer, section {
+    margin: 30px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 2px solid #000000;
+}
+
+p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+
+/* head  */
+
+#divhead {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 120px;
+    background-color: whitesmoke;
+    border: 2px solid #000000;
+}
+nav {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: fantasy;
+    background-color: whitesmoke;
+    border: 2px solid #000000;
+}
+
+
+ul {
+    display: flex;
+}
+
+li{
+    padding-right: 100px;
+}
+
+#chrono {
+    position : absolute;
+    right : 50px;
+    margin-top: 20px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;   
+}
+#logo{
+    border-radius: 200px;
+    margin: 10px;
+}
+
+/* corps du site  */
+#premier{
+    display: flex;
+}
+
+#deuxieme{
+    display: flex;
+    
+}
+
+/* Footer */
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Ft {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.lien{
+    text-decoration: none;
+}
+
+#divhead {
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    color :green;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+body {
+    background-color: lightgrey;
+    cursor: e-resize;
+}
+
+.question{
+    cursor: help;
+}
+
+
+.coin {
+    border-radius: 50px;
+}

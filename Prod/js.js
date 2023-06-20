@@ -1,0 +1,65 @@
+setInterval(() => 
+{
+
+    let date = new Date
+    let jour = date.getDate()
+    let heure = date.getHours()
+    let minute = date.getMinutes()
+    let mois = date.getMonth()
+
+    switch (mois) 
+    {
+        case 1:
+            moisl = "Janvier";
+            break;
+        case 2:
+            moisL = "Février";
+            break;
+        case 3:
+            moisL = "Mars";
+            break;
+        case 4:
+            moisL = "Avril";
+            break;
+        case 5:
+            moisL = "Mai";
+            break;
+        case 6:
+            moisL = "Juin";
+            break;
+        case 7:
+            moisL = "Juillet";
+            break;
+        case 8:
+            moisL = "Août";
+            break;
+        case 9:
+            moisL = "Septembre";
+            break;
+        case 10:
+            moisL = "Octobre";
+            break;
+        case 11:
+            moisL = "Novembre";
+            break;
+        case 12:
+            moisL = "Décembre";
+            break;
+        default:
+            moisL = "Mois invalide";
+            break;
+    }
+
+    let chrono = heure + "h " + minute + "m - " + jour + " " + moisL
+
+    var element = document.getElementById("chrono");
+    element.innerHTML = chrono;
+        
+}, 500);
+
+document.title = "Plate or Flat"
+
+alert("Tu vas apprendre la vérité")
+
+
+
